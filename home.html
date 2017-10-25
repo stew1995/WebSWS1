@@ -102,10 +102,49 @@
 <!--Log in and Social Media-->
 <div class="row">
     <!--Login-->
-    <div class="col s12 m4 offset-m2 l4 offset-l2 blue">Helo</div>
+    <div class="col s12 m6 l4 offset-l2">
+        <div class="card">
+            <div class="card-content">
+                <span class="card-title center">Log in/Register to make bookings</span>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate">
+                        <label for="password">Password</label>
+                    </div>
+                </div>
+            </div>
+            <div class="card-action">
+                <a>Log In</a>
+                <a class="right">Register</a>
+            </div>
+        </div>
+    </div>
     <!--Social Media-->
-    <div class="col s12 m4  l4 red">Helo</div>
+    <div class="col s12 m6  l4">
+
+        <div class="card-panel" style="height: 380px">
+          <h5 class="center light">Follow us on social media for the latest updates on what we do
+          </h5>
+            <div class="divider"></div>
+            <div class="col s6">
+
+                <div class="fb-like" data-layout="button" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
+
+            </div>
+            <div class="col s6">
+                <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+
+    </div>
 </div>
+<!--Footer-->
 <footer class="page-footer">
     <div class="container">
         <div class="row">
@@ -134,5 +173,13 @@
 
 
 <script src="js/home.js"></script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10';
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 </body>
 </html>
