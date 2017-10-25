@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,10 +11,46 @@
 </head>
 
 <body>
+<!--Navigation-->
+
+
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">Logo</a>
+        <a href="#" data-activates="sideNavigation" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a>Home</a></li>
+            <li><a>News</a></li>
+            <li><a>Bookings</a></li>
+            <li><a>Languages</a></li>
+            <li><a>About</a></li>
+        </ul>
+        <ul class="side-nav" id="sideNavigation">
+            <li><a>Home</a></li>
+            <li><a>News</a></li>
+            <li><a>Bookings</a></li>
+            <li><a>Languages</a></li>
+            <li><a>About</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+
+<!--Where content is loaded-->
+<div id="body"></div>
+
+
+
+
+
 <!--Import jQuery before materialize.js-->
-src="https://code.jquery.com/jquery-3.2.1.min.js"
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
 integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-crossorigin="anonymous"<script type="text/javascript" src="js/materialize.min.js"></script>
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/navigation.js"></script>
 </body>
 </html>
         
