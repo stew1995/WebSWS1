@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="css/booking.css">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <link rel='stylesheet' href='css/fullcalendar.css' />
 </head>
 <body>
 <!--Calender and PDF Row-->
 <div class="row">
     <div class="col s12 m6 offset-m1 l7 offset-l1">
-        <input type="text" class="datepicker">
+        <div id='calendar'></div>
     </div>
     <div class="col s12 m4 l3 blue">
         Hello
@@ -24,7 +26,9 @@
         </a>
     </div>
 </div>
-
+<script src='js/lib/jquery.min.js'></script>
+<script src='js/lib/moment.min.js'></script>
+<script src='js/fullcalendar.js'></script>
 <script src="js/booking.js"></script>
 </body>
 </html>
