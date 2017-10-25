@@ -11,10 +11,11 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
     <link rel='stylesheet' href='css/fullcalendar.css' />
+
 </head>
 <body>
 <!--Calender and PDF Row-->
-<div class="row">
+<div class="row" style="margin-top: 10px">
     <div class="col s12 m6 offset-m1 l7 offset-l1 bookingTop">
         <div id='calendar'></div>
     </div>
@@ -56,58 +57,76 @@
                     <td>HTML5 & CSS</td>
                     <td>30/10/2017 at 4pm</td>
                     <td>5</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>JavaScript</td>
                     <td>2/11/2017 at 4pm</td>
                     <td>7</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>Swift</td>
                     <td>3/11/2017 at 4pm</td>
                     <td>10</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>Swift</td>
                     <td>6/11/2017 at 4pm</td>
                     <td>11</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>HTML5 & CSS</td>
                     <td>10/11/2017 at 4pm</td>
                     <td>12</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>JavaScript</td>
                     <td>13/11/2017 at 4pm</td>
                     <td>12</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>Swift</td>
                     <td>16/11/2017 at 4pm</td>
                     <td>17</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>HTML & CSS</td>
                     <td>17/11/2017 at 4pm</td>
                     <td>14</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
                 <tr>
                     <td>JavaScript</td>
                     <td>20/11/2017 at 4pm</td>
                     <td>15</td>
-                    <td><button class="waves-effect small waves-light btn orange lighten-2">Book</button></td>
+                    <td><button data-target="modal1" class="waves-effect small waves-light btn modal-trigger orange lighten-2">Book</button></td>
                 </tr>
             </tbody>
         </table>
+
+
+
+
+        <!-- Modal Structure -->
+        <div id="modal1" class="modal">
+            <div class="modal-content">
+                <h4>Modal Header</h4>
+                <p>A bunch of text</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+            </div>
+        </div>
+
+
+
+
     </div>
 </div>
 <!--navigate to the Languages bit-->
@@ -121,9 +140,27 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src='js/lib/jquery.min.js'></script>
+
+<script src="js/materialize.min.js"></script>
 <script src='js/lib/moment.min.js'></script>
-<script src='js/fullcalendar.js'></script>
 <script src="js/booking.js"></script>
+<script src='js/fullcalendar.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.6.2/fullcalendar.min.js"></script>
+
 </body>
 </html>
