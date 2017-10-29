@@ -86,16 +86,10 @@
     </div>
 </div>
 <div class="divider"></div>
-<!--Quick location search-->
+<!--location-->
 <div class="row">
-    <div class="col s12 m6 l6 offset-l2 offset-m2" style="height: 40px;">
-        <div class="input-field valign-wrapper">
-            <input id="locationSearch" type="text" class="validate">
-            <label for="locationSearch">Postcode</label>
-        </div>
-    </div>
-    <div class="col s12 m4 l4 offset-l8 offset-m8" style="height: 40px;">
-            <a class="waves-effect waves-light btn orange lighten-2 black-text">Search</a>
+    <div class="center" style="height: 40px;">
+      <b><p id="Distance"></p></b>
     </div>
 </div>
 <div class="divider"></div>
@@ -156,5 +150,26 @@
     js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10';
     fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2qK69jiNtZlI9Eq38GzQbqaF6RSGlrSM&libraries=geometry"></script>
+<script>
+     function locationNow(pos) {
+       var currentLocation = pos.coords;
+
+       var latitude1 = currentLocation.latitude //Current Latitude
+       var longitude1 = currentLocation.longitude //Current Longitude
+
+       var location1 = new google.maps.LatLng(latitude1, longitude1); //Current Location
+       var location2 = new google.maps.LatLng(50.7950, -1.0593); //Milbury School
+
+       answer = google.maps.geometry.spherical.computeDistanceBetween(location1, location2) * 0.000621371192;
+
+          document.getElementById("Distance").innerHTML = "Your closest Kidz Code is " + answer.toFixed(2) + " Miles Away and situated at Milbury School, Portsmouth.";
+}
+
+     navigator.geolocation.getCurrentPosition(locationNow)//, options);
+</script>
+
+
+</script>
 </body>
 </html>
