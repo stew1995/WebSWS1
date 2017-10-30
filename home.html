@@ -88,6 +88,7 @@
                     </div>
                 </div>
         </div>
+
         <p class="center-align" style="padding-top: 25px;">If you want to find out more about the languages we do, click the button below</p>
         <!--Button to languages-->
         <div class="center-align">
@@ -127,8 +128,8 @@
                 </div>
             </div>
             <div class="card-action">
-                <a>Log In</a>
-                <a class="right">Register</a>
+                <a class="modal-trigger" href="#loginModal">Log In</a>
+                <a class="right modal-trigger" href="#registerModal">Register</a>
             </div>
         </div>
     </div>
@@ -149,6 +150,31 @@
             </div>
         </div>
 
+    </div>
+</div>
+
+<!--Modals for login and register-->
+<!-- Modal Structure for Login  -->
+<div id="loginModal" class="modal">
+    <div class="modal-content">
+        <h4>Login Successful</h4>
+        <div class="divider"></div>
+        <p>You have successfully logged in, you can now make bookings</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Continue</a>
+    </div>
+</div>
+
+<!-- Modal Structure for Register  -->
+<div id="registerModal" class="modal">
+    <div class="modal-content">
+        <h4>Registration Successful</h4>
+        <div class="divider"></div>
+        <p>You have successfully registered, you can now book classes and view what classes are upcoming</p>
+    </div>
+    <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Continue</a>
     </div>
 </div>
 
