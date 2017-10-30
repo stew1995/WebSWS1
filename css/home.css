@@ -8,8 +8,7 @@
     margin-bottom: 50px;
 }
 
-.cardPadding {
-    padding-left: 15%;
-    padding-right: 15%;
+.languageCard {
+    height: 450px;
 }
 
