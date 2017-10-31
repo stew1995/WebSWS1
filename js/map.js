@@ -16,3 +16,6 @@ function locationNow(pos) {
 }
 
 navigator.geolocation.getCurrentPosition(locationNow)//, options);
+
+
+

@@ -3,6 +3,9 @@ $(".button-collapse").sideNav();
 
     $('#body').load('home.html');
 
-    $('#bookingTopNavBtn').click(function () {
+    $('.bookingNavBtn').click(function () {
         $('#body').load('booking.html');
-    })
+    });
+    $('.homeNavBtn').click(function () {
+        $('#body').load('home.html');
+    });

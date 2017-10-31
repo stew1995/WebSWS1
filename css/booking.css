@@ -5,3 +5,8 @@
 .bookingTop {
     height: auto;
 }
+
+table.highlight tbody tr:hover {
+    background-color: #e3f2fd !important;
+}
+
