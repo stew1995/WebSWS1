@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3018b6f2-5d2b-458e-bd29-227995f680f6" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/booking.html" afterPath="$PROJECT_DIR$/booking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/booking.css" afterPath="$PROJECT_DIR$/css/booking.css" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,21 +48,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="booking.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="booking.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/booking.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="171">
+              <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="booking.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="booking.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="203" column="31" lean-forward="false" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
+            <state relative-caret-position="287">
+              <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -104,7 +105,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/booking.css" />
-        <option value="$PROJECT_DIR$/css/booking.css" />
         <option value="$PROJECT_DIR$/js/gcal.js" />
         <option value="$PROJECT_DIR$/css/home.css" />
         <option value="$PROJECT_DIR$/js/map.js" />
@@ -114,6 +114,7 @@
         <option value="$PROJECT_DIR$/js/navigation.js" />
         <option value="$PROJECT_DIR$/js/booking.js" />
         <option value="$PROJECT_DIR$/booking.html" />
+        <option value="$PROJECT_DIR$/css/booking.css" />
       </list>
     </option>
   </component>
@@ -670,12 +671,12 @@
       <updated>1508928017794</updated>
       <workItem from="1508928029149" duration="20025000" />
       <workItem from="1509354941213" duration="10227000" />
-      <workItem from="1509440077298" duration="1902000" />
+      <workItem from="1509440077298" duration="2864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32154000" />
+    <option name="totallyTimeSpent" value="33116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1150" y="23" width="770" height="1125" extended-state="0" />
@@ -857,14 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/booking.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -895,11 +888,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="203" column="31" lean-forward="false" selection-start-line="203" selection-start-column="31" selection-end-line="203" selection-end-column="31" />
+        <state relative-caret-position="287">
+          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/booking.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
