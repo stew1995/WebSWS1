@@ -9,3 +9,8 @@ $(".button-collapse").sideNav();
     $('.homeNavBtn').click(function () {
         $('#body').load('home.html');
     });
+
+    $('.newsNavBtn').click(function () {
+        $('#body').load('news.html');
+    });
+
