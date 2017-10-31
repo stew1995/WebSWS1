@@ -255,8 +255,22 @@ $(document).ready(function() {
                 }
             ]
         }],
+        eventClick: function(calEvent, jsEvent, view) {
+
+            alert('Event: ' + calEvent.title);
+
+
+
+            // change the border color
+            $(this).css('border-color', 'red');
+
+        }
     });
 
 });
 
 
+$(document).ready(function(){
+    $('#bookingModal').modal();
+
+});
