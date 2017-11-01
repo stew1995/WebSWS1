@@ -14,3 +14,7 @@ $(".button-collapse").sideNav();
         $('#body').load('news.html');
     });
 
+    $('.languagesNavBtn').click(function () {
+        $('#body').load('language.html');
+    });
+
