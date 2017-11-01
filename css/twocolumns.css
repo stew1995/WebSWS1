@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 400px; /* Should be removed. Only for demonstration */
+	margin-top: 5%;
+	}
+
+.column1 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; 	
+	
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column p {
+	text-align: center;
+	color: Black;
+	font-family: 'Slabo 27px', serif;
+
+}
+
+.card img:hover {
+	box-shadow: 0 0 20px 10px rgba(0, 140, 186, 5);
+}
+
+
+.column1 image {
+	margin-right: 10%;
+}	
+
