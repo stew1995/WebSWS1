@@ -19,7 +19,8 @@ body {
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; 	
+    height: 300px;
+}
 	
 /* Clear floats after the columns */
 .row:after {
