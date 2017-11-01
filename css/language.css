@@ -1,16 +1,13 @@
-.card {
-    box-shadow: 0 4px 8px 0 rgba(10,10,10,10);
-    transition: 0.3s;
-    width: 30%;
-    margin: -100px;
-    margin-top: 120px;
-    margin-bottom: -80px;
-    float: left;
-    margin-left: 250px;
-    border-radius: 30px;
-
+.languageImages {
+    height: 200px;
 }
 
+
+
+
+
+
+/*
 img {
     border-radius: 50px 50px 50px 50px;
 }
@@ -108,3 +105,4 @@ justify-content: center;
     background-color: #3e8e41;
 }
 
+*/
