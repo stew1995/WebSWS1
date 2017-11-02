@@ -5,12 +5,28 @@
     <title>News</title>
 </head>
 <body>
+
+<div class="center" style="margin-top:10px">
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn yellow darken-2 modal-trigger" href="#modal1"><b>Subscribe</b><i class="material-icons">rss_feed</i></a>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Subsribe to RSS Reed</h4>
+            <p>Click Subscribe to keep up to date with Kidz Code via our RSS Feed.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Subscribe</a>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <div class="col s12 m10 offset-m1">
             <ul class="collapsible" class="center-align" data-collapsible="accordion">
                 <li>
                     <div class="collapsible-header active" style="display:block"><i class="material-icons">star</i><b>Introducing our new Rewards Programme!<div class="right">24/10/2017</div></b></div>
-                    <div class="collapsible-body"><div class="card content center z-depth-0"><img class=responsive-img src="https://cdn.pixabay.com/photo/2013/07/12/14/05/shooting-star-147722_1280.png" alt="Shooting Star" style="width:800px; height:400px" align="middle"></div><span>We are pleased to announce our weekly rewards programme for pupils who excel - Star Coder of the Week! Stay tuned for more details.</span></div>
+                    <div class="collapsible-body"><div class="card content center z-depth-0"><img class=responsive-img src="img/ShootingStar.png" alt="Shooting Star" style="width:800px; height:400px" align="middle"></div><span>We are pleased to announce our weekly rewards programme for pupils who excel - Star Coder of the Week! Stay tuned for more details.</span></div>
                 </li>
                 <li>
                     <div class="collapsible-header active" style="display:block"><i class="material-icons">notifications</i><b>Accepting New Applicants<div class="right">24/10/2017</div></b></div>
@@ -56,11 +72,11 @@
     </div>
 </div>
 
-
 <script>
     $(document).ready(function () {
         $('.collapsible').collapsible();
     })
 </script>
+<script>$('.modal').modal();</script>
 </body>
 </html>
