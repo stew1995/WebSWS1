@@ -32,7 +32,8 @@
                 </form>
             </div>
             </p>
-            <img class="image2" src="img/map.jpg" height="340" width="800">
+            <!--<img class="image2" src="img/map.jpg" height="340" width="800">-->
+            <div id="map"></div>
 
             <!--Donate Button-->
             <br>
@@ -73,7 +74,8 @@
     </div>
 </div>
         <!--Map-->
-        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2qK69jiNtZlI9Eq38GzQbqaF6RSGlrSM&libraries=geometry"></script>
+        <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2qK69jiNtZlI9Eq38GzQbqaF6RSGlrSM&libraries=geometry&callback=initMap"
+                async defer></script>
 
         <script src="js/map.js"></script>
 

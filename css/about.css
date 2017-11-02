@@ -30,3 +30,9 @@
     margin: auto;
     width: 80%;
 }
+
+
+#map {
+  width:800px;
+  height: 340px;
+}
