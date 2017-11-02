@@ -178,12 +178,16 @@
         <h5 class="center light">Want to book a class? Click the button below</h5>
         <!--Button to Booking-->
         <div class="center-align" style="margin:20px 0px;">
-            <a class="waves-effect waves-light btn orange lighten-2 bookingNavButton">Go to Booking</a>
+            <a class="waves-effect waves-light btn orange lighten-2 bookingNavBtn">Go to Booking</a>
         </div>
     </div>
 </div>
 
-
+<script>
+    $('.bookingNavBtn').click(function () {
+        $('#body').load('booking.html');
+    });
+</script>
 
 
 

@@ -1,3 +1,7 @@
+$('.languagesNavBtn').click(function () {
+    $('#body').load('language.html');
+});
+
 $(document).ready(function() {
     $('#calendar').fullCalendar({
         defaultDate: "2017-11-01",

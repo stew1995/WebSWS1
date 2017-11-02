@@ -3,3 +3,7 @@ $(document).ready(function(){
     $('#loginModal').modal();
     $('#registerModal').modal();
 });
+
+$('.languagesNavBtn').click(function () {
+    $('#body').load('language.html');
+});
