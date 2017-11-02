@@ -23,8 +23,9 @@ navigator.geolocation.getCurrentPosition(locationNow)//, options);
 
 var map;
 function initMap() {
+    var location = new google.maps.LatLng(50.7950, -1.0593)
     map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: -34.397, lng: 150.644},
-        zoom: 8
+        center: location,
+        zoom: 12
     });
 }
