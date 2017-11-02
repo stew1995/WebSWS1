@@ -18,3 +18,7 @@ $(".button-collapse").sideNav();
         $('#body').load('language.html');
     });
 
+    $('.aboutNavBtn').click(function () {
+        $('#body').load('about.html');
+    });
+
