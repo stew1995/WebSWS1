@@ -1,26 +1,34 @@
-$(".button-collapse").sideNav();
 
 
-    $('#body').load('home.html');
+    $(document).ready(function () {
+        $(".button-collapse").sideNav();
 
-    $('.bookingNavBtn').click(function () {
-        $('#body').load('booking.html');
-    });
-    $('.homeNavBtn').click(function () {
+
         $('#body').load('home.html');
-    });
 
-    $('.newsNavBtn').click(function () {
-        $('#body').load('news.html');
-    });
+        $('.bookingNavBtn').click(function () {
+            $('#body').load('booking.html');
+        });
+        $('.homeNavBtn').click(function () {
+            $('#body').load('home.html');
+        });
 
-    $('.languagesNavBtn').click(function () {
-        $('#body').load('language.html');
-    });
+        $('.newsNavBtn').click(function () {
+            $('#body').load('news.html');
+        });
 
-    $('.aboutNavBtn').click(function () {
-        $('#body').load('about.html');
-    });
+        $('.languagesNavBtn').click(function () {
+            $('#body').load('language.html');
+        });
+
+        $('.aboutNavBtn').click(function () {
+            $('#body').load('about.html');
+        });
 
 
+
+        $(".dropdown-button").dropdown({
+            hover: true
+        });
+    })
 
