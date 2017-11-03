@@ -25,7 +25,19 @@
             $('#body').load('about.html');
         });
 
+        $('.htmlCssBTN').click(function () {
+            $('#body').load('HTMLCSS.html');
+        });
 
+        $('.javascriptBTN').click(function () {
+            $('#body').load('Javascript.html');
+        });
+        $('.pythonBTN').click(function () {
+            $('#body').load('python.html');
+        });
+        $('.scratchBTN').click(function () {
+            $('#body').load('scratch.html');
+        });
 
         $(".dropdown-button").dropdown({
             hover: true
