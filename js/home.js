@@ -7,3 +7,5 @@ $(document).ready(function(){
 $('.languagesNavBtn').click(function () {
     $('#body').load('language.html');
 });
+
+
