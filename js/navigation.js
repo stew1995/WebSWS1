@@ -25,6 +25,10 @@
             $('#body').load('about.html');
         });
 
+        $('.helpNavBtn').click(function() {
+           $('#body').load('help.html');
+        });
+
         $('.htmlCssBTN').click(function () {
             $('#body').load('HTMLCSS.html');
         });
