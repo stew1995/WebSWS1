@@ -12,8 +12,12 @@
 <body>
 <!--Navigation-->
 
-
-
+<ul id="dropdown1" class="dropdown-content" style="margin-top: 60px;">
+    <li><a href="#!" class="htmlCssBTN">HTML & CSS</a></li>
+    <li><a href="#!" class="javascriptBTN">JavaScript</a></li>
+    <li><a href="#!" class="pythonBTN">Python</a></li>
+    <li><a href="#!" class="scratchBTN">Scratch</a></li>
+</ul>
 <nav>
     <div class="nav-wrapper orange darken-2">
         <a href="#!" class="brand-logo" style="padding-left: 16px;">Kidz Code</a>
@@ -22,7 +26,7 @@
             <li><a class="homeNavBtn">Home</a></li>
             <li><a class="newsNavBtn">News</a></li>
             <li><a class="bookingNavBtn">Bookings</a></li>
-            <li><a class="dropdown-button languagesNavBtn" href="#!" data-activates="languageDropdown">Languages<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="languagesNavBtn dropdown-button" href="#!" data-activates="dropdown1">Languages<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="aboutNavBtn">About</a></li>
             <li><a class="helpNavBtn">Help</a></li>
             <li><a class="signInNavBtn modal-trigger" href="#SignInModal">Sign In/Register</a> </li>
@@ -31,19 +35,13 @@
             <li><a class="homeNavBtn">Home</a></li>
             <li><a class="newsNavBtn">News</a></li>
             <li><a class="bookingNavBtn">Bookings</a></li>
-            <li><a class="dropdown-button languagesNavBtn" href="#!" data-activates="languageDropdown">Languages<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="#!" data-activates="languageDropdown">Languages<i class="material-icons right">arrow_drop_down</i></a></li>
             <li><a class="aboutNavBtn">About</a></li>
             <li><a class="helpNavBtn">Help</a></li>
         </ul>
     </div>
 </nav>
-<!-- Dropdown Structure -->
-<ul id="languageDropdown" class="dropdown-content" style="margin-top: 60px;">
-    <li><a href="#!" class="htmlCssBTN">HTML & CSS</a></li>
-    <li><a href="#!" class="javascriptBTN">JavaScript</a></li>
-    <li><a href="#!" class="pythonBTN">Python</a></li>
-    <li><a href="#!" class="scratchBTN">Scratch</a></li>
-</ul>
+
 
 
 
