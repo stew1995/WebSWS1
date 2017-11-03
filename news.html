@@ -8,15 +8,15 @@
 
 <div class="center" style="margin-top:10px">
     <!-- Modal Trigger -->
-    <a class="waves-effect waves-light btn yellow darken-2 modal-trigger" href="#modal1"><b>Subscribe</b><i class="material-icons">rss_feed</i></a>
+    <a class="waves-effect waves-light btn yellow darken-2 modal-trigger" href="#modal"><b>Subscribe</b><i class="material-icons">rss_feed</i></a>
     <!-- Modal Structure -->
-    <div id="modal1" class="modal">
+    <div id="modal" class="modal">
         <div class="modal-content">
             <h4>Subsribe to RSS Reed</h4>
             <p>Click Subscribe to keep up to date with Kidz Code via our RSS Feed.</p>
         </div>
         <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Subscribe</a>
+            <a href="#modal" class="modal-action modal-close waves-effect waves-green btn-flat">Subscribe</a>
         </div>
     </div>
 </div>
@@ -115,7 +115,7 @@
             <p>Thank you for your feedback.</p>
         </div>
         <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Subscribe</a>
+            <a href="#modal1" class="modal-action modal-close waves-effect waves-green btn-flat">Subscribe</a>
         </div>
     </div>
 </div>
@@ -133,6 +133,7 @@
         $('.collapsible').collapsible();
     })
 </script>
+<script>$('.modal').modal();</script>
 <script>$('.modal').modal();</script>
 </body>
 </html>
