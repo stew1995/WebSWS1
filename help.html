@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Help</title>
+</head>
+<body>
+<div class="row">
+    <div class="input-field col s12 m7 l6 offset-l1">
+        <input id="text" type="text" >
+        <label for="text">Submit a post</label>
+    </div>
+    <div class="input-field col s12 m3 l3">
+        <select>
+            <option value="" disabled selected>Choose your option</option>
+            <option value="3">Help</option>
+            <option value="1">HTML & CSS</option>
+            <option value="2">JavaScript</option>
+            <option value="3">Python</option>
+            <option value="3">Scratch</option>
+        </select>
+        <label>Materialize Select</label>
+    </div>
+    <div class="col s2 offset-s4 m1 l1">
+        <a class="waves-effect waves-light btn-large orange white-text">Submit</a>
+    </div>
+</div>
+<div class="row">
+    <div class="col s12 m7 l6 offset-l1">
+        <!--Fourm-->
+        <ul class="collection">
+            <li class="collection-item avatar">
+                <div class="orange lighten-3">
+                    <img src="img/js.png" alt="" class="circle">
+                    <h5 class="light center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                    <div class="divider"></div>
+                </div>
+                <p>Integer feugiat, velit in euismod interdum, mi risus rutrum enim, eget aliquam velit lectus eu odio. <br>
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque justo massa, mattis ac risus scelerisque, facilisis volutpat lectus. Vestibulum blandit neque quis mauris venenatis, eget finibus purus faucibus. Nunc sollicitudin posuere sollicitudin.
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <div class="orange lighten-3">
+                    <i class="material-icons circle green">help</i>
+                    <h5 class="light center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                    <div class="divider"></div>
+                </div>
+                <p>Integer feugiat, velit in euismod interdum, mi risus rutrum enim, eget aliquam velit lectus eu odio. <br>
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque justo massa, mattis ac risus scelerisque, facilisis volutpat lectus. Vestibulum blandit neque quis mauris venenatis, eget finibus purus faucibus. Nunc sollicitudin posuere sollicitudin.
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <div class="orange lighten-3">
+                    <img src="img/html-css.png" alt="" class="circle">
+                    <h5 class="light center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                    <div class="divider"></div>
+                </div>
+                <p>Integer feugiat, velit in euismod interdum, mi risus rutrum enim, eget aliquam velit lectus eu odio. <br>
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque justo massa, mattis ac risus scelerisque, facilisis volutpat lectus. Vestibulum blandit neque quis mauris venenatis, eget finibus purus faucibus. Nunc sollicitudin posuere sollicitudin.
+                </p>
+            </li>
+            <li class="collection-item avatar">
+                <div class="orange lighten-3">
+                    <img src="img/js.png" alt="" class="circle">
+                    <h5 class="light center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+                    <div class="divider"></div>
+                </div>
+                <p>Integer feugiat, velit in euismod interdum, mi risus rutrum enim, eget aliquam velit lectus eu odio. <br>
+                    Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque justo massa, mattis ac risus scelerisque, facilisis volutpat lectus. Vestibulum blandit neque quis mauris venenatis, eget finibus purus faucibus. Nunc sollicitudin posuere sollicitudin.
+                </p>
+            </li>
+        </ul>
+
+    </div>
+    <div class="col s12 m5 l4 blue">
+        <!--FAQ-->
+        <h2>FAQ</h2>
+        <ul style="list-style-type:none">
+            <li>What is Kidz Code?</li><br>
+            <li>Which coding language should I start with?</li><br>
+            <li>Where can I find your privacy policy?</li><br>
+            <li>How do I reset my students' passwords?</li><br>
+            <li>How do I track my childs progress?</li><br>
+            <li>I don't know anything about coding. Can I still join?</li><br>
+            <li>How can students with disabilities participate?</li>
+        </ul>
+
+    </div>
+</div>
+
+
+<script>
+
+    $(document).ready(function() {
+        $('select').material_select();
+    });
+</script>
+</body>
+</html>
