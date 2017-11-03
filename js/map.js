@@ -28,4 +28,11 @@ function initMap() {
         center: location,
         zoom: 12
     });
+
+    var marker = new google.maps.Marker({
+        position: location,
+        map: map,
+        title: 'Hello World!'
+    });
+
 }
