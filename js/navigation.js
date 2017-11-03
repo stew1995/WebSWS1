@@ -43,8 +43,10 @@
             $('#body').load('scratch.html');
         });
 
-        $(".dropdown-button").dropdown({
-            hover: true
-        });
-    })
+
+    });
+
+    $("#languageDropdown").dropdown({
+        hover: true
+    });
 
