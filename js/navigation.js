@@ -25,6 +25,9 @@
             $('#body').load('about.html');
         });
 
+        $('.htmlCssBTN').click(function () {
+            $('#body').load('HTMLCSS.html');
+        });
 
 
         $(".dropdown-button").dropdown({
